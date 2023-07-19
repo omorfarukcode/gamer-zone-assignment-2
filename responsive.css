@@ -94,6 +94,9 @@
         font-size: .8rem;
         text-align: center;
     }
+    .box .play-button{
+        padding: 47% 37%;
+    }
 
     .play-instantly {
         width: 100%;
