@@ -289,13 +289,15 @@ nav {
 .game-box .box{
     position: relative;
 }
-
+.box {
+    transition: .5s;
+}
 .box>img {
     width: 100%;
     padding: 5px;
     /* border: 4px solid #ffffff; */
 }
-.play-button{
+.box .play-button{
     text-align: center;
     position: absolute;
     top:0;
@@ -304,22 +306,20 @@ nav {
     border-radius: 15px;
     border: 4px solid #F948B2;
     cursor: pointer;
-    /* display: none; */
+    display: none;
 }
-.game-box .box:hover {
-    
+.box:hover .play-button{
+    display: block;
 }
 .play-button i{
     font-size: 3rem;
+    color: #fcf8f8;
 }
 .play-button small{
      display: block;
      font-size: 1.1rem;
      font-weight: 500;
-}
-
-.box img:hover .play-button{
-    
+     color: #F948B2;
 }
 
 .box>p {
