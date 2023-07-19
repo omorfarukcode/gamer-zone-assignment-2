@@ -1,0 +1,362 @@
+/* Media Query For Phone  */
+@media screen and (max-width:576px) {
+
+    .nav-ber,
+    .manus {
+        flex-direction: column;
+    }
+
+    .manus {
+        margin: 0%;
+    }
+
+    .manu>a {
+        display: block;
+        margin: 25px;
+
+    }
+
+    .manu-icon {
+        margin-top: 20px;
+    }
+
+    .banner-section {
+        background: #fff;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+    .banner-contant {
+        background-image: url(./images/group14.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 30px;
+        margin-top: 30px;
+    }
+
+    .banner-image img {
+        width: 100%;
+
+    }
+
+    .banner-image {
+        background: #fff;
+
+    }
+
+    .button .btn {
+        margin: 10px 0;
+        padding: 15px 23px;
+    }
+
+    .we-are-gamer {
+        margin-top: 30px;
+    }
+
+    .gamer-container {
+        flex-direction: column;
+    }
+
+    .gamer-contant {
+        width: 100%;
+        text-align: center;
+    }
+
+    .gamer-contant h2 {
+        font-size: 2.5rem;
+    }
+
+    .gamer-contant h2,
+    .gamer-contant p {
+        text-align: center;
+    }
+
+    .online-game {
+        width: 80%;
+    }
+
+    .online-game>h2 {
+        font-size: 3rem;
+    }
+
+    .game-box {
+        grid-template-columns: 1fr;
+        box-shadow: none;
+    }
+
+    .game-box p {
+        font-size: .8rem;
+        text-align: center;
+    }
+
+
+    .carees-container {
+        flex-direction: column;
+    }
+
+    .carees-containt,
+    .carees-image {
+        width: 100%;
+    }
+
+    .carees-container h2 {
+        margin-top: -30px;
+    }
+
+    .carees-container p {
+        font-size: .6rem;
+    }
+
+    .carees-container .btn {
+        font-size: .7rem;
+        padding: 10px 15px;
+        margin-bottom: 20px;
+    }
+
+    .collection-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+    }
+
+    .collection {
+        padding: 3px;
+    }
+
+    .collection:hover {
+        padding: 3px;
+    }
+
+    .collection img {
+        width: 30%;
+    }
+
+    .collection p {
+        font-size: 10px;
+    }
+    .footer-container .manu ul{
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .footer-container .manu ul li{
+        font-size: .6rem;
+    }
+    .footer-container .icon{
+        width: 50%;
+        font-size: 25px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 20px auto;
+    }
+    .footer-container .privacy ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 20px 0;
+    }
+    .footer-container .privacy ul li{
+        margin: 5px;
+        font-size: 13px;
+    }
+    .copyright{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .copyright p{
+        margin-top: 10px;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query For Tablet  */
+@media screen and (min-width:576px) and (max-width:920px) {
+
+    .nav-ber,
+    .manus {
+        flex-direction: column;
+    }
+
+    .manus {
+        margin: 0%;
+    }
+
+    .manu {
+        margin-top: 25px;
+    }
+
+    .manu-icon {
+        margin-top: 25px;
+    }
+
+    .banner-section {
+        background: #fff;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+    .banner-contant {
+        background-image: url(./images/group14.png);
+        padding: 30px;
+        margin-top: 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-image img {
+        width: 100%;
+
+    }
+
+    .banner-image {
+        background: #fff;
+
+    }
+
+    .button .btn {
+        margin: 10px 0;
+    }
+
+    .gamer-container {
+        flex-direction: column;
+    }
+
+    .gamer-contant {
+        width: 80%;
+        text-align: left;
+    }
+
+    .gamer-contant h2 {
+        font-size: 2.5rem;
+    }
+
+    .gamer-contant h2,
+    .gamer-contant p {
+        text-align: left;
+    }
+
+    .we-are-gamer {
+        margin-top: 30px;
+    }
+
+    .online-game {
+        width: 80%;
+    }
+
+    .online-game>h2 {
+        font-size: 4rem;
+    }
+
+    .game-box {
+        grid-template-columns: 1fr 1fr;
+        box-shadow: none;
+    }
+
+    .game-box p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .carees-container {
+        flex-direction: column;
+    }
+
+    .carees-containt,
+    .carees-image {
+        width: 100%;
+    }
+
+    .carees-container h2 {
+        margin-top: -30px;
+    }
+
+    .carees-container p {
+        font-size: 1rem;
+    }
+
+    .carees-container .btn {
+        margin-bottom: 20px;
+    }
+
+    .collection-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+    }
+
+    .collection {
+        padding: 4px;
+    }
+
+    .collection:hover {
+        padding: 4px;
+    }
+
+    .collection img {
+        width: 30%;
+    }
+
+    .collection p {
+        font-size: 20px;
+    }
+
+    .footer-container .manu ul{
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .footer-container .manu ul li{
+        font-size: 1rem;
+    }
+    .footer-container .icon{
+        width: 40%;
+        font-size: 35px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 20px auto;
+    }
+    .footer-container .privacy ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 20px 0;
+    }
+    .footer-container .privacy ul li{
+        margin: 5px;
+        font-size: 1rem;
+    }
+    .copyright{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .copyright p{
+        margin-top: 10px;
+        font-size:  1rem;
+    }
+
+
+
+
+}
