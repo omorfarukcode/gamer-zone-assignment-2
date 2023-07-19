@@ -40,6 +40,7 @@
 
     .banner-image img {
         width: 100%;
+        padding: 30px;
 
     }
 
@@ -64,6 +65,7 @@
     .gamer-contant {
         width: 100%;
         text-align: center;
+        padding: 0 20px;
     }
 
     .gamer-contant h2 {
@@ -76,7 +78,7 @@
     }
 
     .online-game {
-        width: 80%;
+        width: 90%;
     }
 
     .online-game>h2 {
@@ -106,37 +108,29 @@
     .instantly-image {
         width: 100%;
     }
-    
-    .tex h2 ,
-    .tex p{
+
+    .tex h2,
+    .tex p {
         text-align: center;
     }
-    .tex p{
+
+    .tex p {
         margin-bottom: 30px;
     }
-   
-    .instantly-image .small-image{
+
+    .instantly-image .small-image {
         position: absolute;
         top: 73%;
-        left: -21% ;
-    }
-    .instantly-image .small-image img{
-        width: 30%;  
+        left: -21%;
     }
 
-
-
-
-
-
-
-
-
-
-
+    .instantly-image .small-image img {
+        width: 30%;
+    }
 
     .carees-container {
         flex-direction: column;
+        padding: 40px 30px 0 30px;
     }
 
     .carees-containt,
@@ -159,13 +153,13 @@
     }
 
     .collection-container {
-        display: grid;
+        display: grid; 
         grid-template-columns: 1fr 1fr 1fr;
         width: 100%;
     }
 
     .collection {
-        padding: 3px;
+        padding: 6px;
     }
 
     .collection:hover {
@@ -276,7 +270,7 @@
 
     .banner-image img {
         width: 100%;
-
+        padding: 50px;
     }
 
     .banner-image {
@@ -341,45 +335,40 @@
     .instantly-image {
         width: 100%;
     }
-    .tex{
+
+    .tex {
         width: 80%;
         margin-bottom: 30px;
-        
+
     }
-    .tex h2 ,
-    .tex p{
+
+    .tex h2,
+    .tex p {
         text-align: center;
-        
+
     }
-    .tex h2{
+
+    .tex h2 {
         font-size: 3rem;
         line-height: 4rem;
     }
-    .tex p{
+
+    .tex p {
         width: 80%;
         font-size: 1.3rem;
         margin: 20px auto;
     }
-    .instantly-image .small-image{
+
+    .instantly-image .small-image {
         position: absolute;
         top: 75%;
-        left: -2% ;
+        left: -2%;
     }
-    .instantly-image .small-image img{
+
+    .instantly-image .small-image img {
         width: 50%;
-        
+
     }
-
-
-
-
-
-
-
-
-
-
-
     .carees-container {
         flex-direction: column;
     }
@@ -387,6 +376,7 @@
     .carees-containt,
     .carees-image {
         width: 100%;
+        padding: 50px;
     }
 
     .carees-container h2 {
