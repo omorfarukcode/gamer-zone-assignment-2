@@ -304,39 +304,70 @@ nav {
     line-height: 20px;
 }
 
-/* Play Instantly Style 
-.play-instantly{
-    background-color: #FDF7FD;
-}
-.play-instantly-container{
+/* Play Instantly Style   */
+.play-instantly {
     width: 80%;
-    margin:auto ;
+    margin: auto;
+    margin-bottom: 150px;
+}
+
+.play-instantly-container {
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-between;
+    padding: 40px;
 }
-.instantly-containt{
+
+.instantly-containt {
     width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
-.instantly-image{
+
+.tex {
+    width: 300px;
+    text-align: right;
+    display: block;
+    margin: auto;
+    align-items: center;
+
+}
+
+.tex h2 {
+    text-align: right;
+    font-size: 2.3rem;
+    font-weight: 700;
+    line-height: 50px;
+    /* 125% */
+}
+
+.tex p {
+    color: #534C64;
+    text-align: right;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.instantly-image {
     width: 50%;
-}
-.instantly-image .f-image{
     position: relative;
 }
-.instantly-image .f-image> img{
+.instantly-image img{
     width: 70%;
-    margin-left: 30%;
+    display: block;
+    margin: auto;
 }
-.instantly-image .s-image{
+.instantly-image .small-image{
     position: absolute;
-    margin-top: -10%;
+    top: 220px;
+    left: 20px ;
+}
+.instantly-image .small-image img{
+    width: 150px;
     
 }
-.instantly-image .s-image> img{
-    width: 50%;
-    margin-right: -0%;
-}
- */
+
 
 /* Careers Style  */
 .carees-section {
@@ -434,55 +465,64 @@ nav {
 
 /* Footer Style  */
 
-footer{
+footer {
     background: #0B0223;
     color: #fff;
     padding-bottom: 50px;
 
 }
-.footer-container{
+
+.footer-container {
     text-align: center;
     width: 80%;
     margin: auto;
 }
-.footer-container .logo{
+
+.footer-container .logo {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 60px 0 20px 0;
     cursor: pointer;
 }
-.footer-container .manu ul{
+
+.footer-container .manu ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
 }
-.footer-container .manu ul li{
+
+.footer-container .manu ul li {
     margin: 10px 10px;
     cursor: pointer;
 }
-.footer-container .icon{
+
+.footer-container .icon {
     font-size: 2rem;
     margin: 0 10px;
 }
-.footer-container .icon i{
+
+.footer-container .icon i {
     margin: 10px 5px;
     cursor: pointer;
 }
-.footer-container .privacy ul{
+
+.footer-container .privacy ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.footer-container .privacy ul li{
+
+.footer-container .privacy ul li {
     list-style: none;
     margin: 40px 10px 10px 10px;
     font-size: .9rem;
     color: rgba(255, 255, 255, 0.60);
     cursor: pointer;
 }
-.copyright{
+
+.copyright {
     color: rgba(255, 255, 255, 0.60);
     display: flex;
     flex-wrap: wrap;
